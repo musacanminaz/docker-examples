@@ -7,7 +7,7 @@ services:
       - "4873:4873"
     volumes:
         - "./storage:/verdaccio/storage"
-        - "./conf:/verdaccio/conf"
+        - "./conf:/verdaccio/config"
 volumes:
   verdaccio:
     driver: local
